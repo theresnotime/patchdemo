@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2aa97918acc4bc35ab116617bd56e9cf",
+    "content-hash": "8965810cd7c51b9eb42a3cbdb87152c9",
     "packages": [
         {
             "name": "buildr/foundation",
@@ -851,31 +851,33 @@
         },
         {
             "name": "mediawiki/mediawiki-codesniffer",
-            "version": "v38.0.0",
+            "version": "v40.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-tools-codesniffer.git",
-                "reference": "059db7ef17adf2fd1088c42a05e6736e5c2aab2a"
+                "reference": "e7f3cf56e5afcb626cbbc99069746c028ca27231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-codesniffer/zipball/059db7ef17adf2fd1088c42a05e6736e5c2aab2a",
-                "reference": "059db7ef17adf2fd1088c42a05e6736e5c2aab2a",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-codesniffer/zipball/e7f3cf56e5afcb626cbbc99069746c028ca27231",
+                "reference": "e7f3cf56e5afcb626cbbc99069746c028ca27231",
                 "shasum": ""
             },
             "require": {
-                "composer/semver": "^1.7.2|^3.2.4",
+                "composer/semver": "3.3.2",
                 "composer/spdx-licenses": "~1.5.2",
+                "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": ">=7.2.0",
-                "squizlabs/php_codesniffer": "3.6.1"
+                "php": ">=7.4.0",
+                "squizlabs/php_codesniffer": "3.7.1",
+                "symfony/polyfill-php80": "^1.26.0"
             },
             "require-dev": {
-                "mediawiki/mediawiki-phan-config": "0.11.0",
+                "mediawiki/mediawiki-phan-config": "0.12.0",
                 "mediawiki/minus-x": "1.1.1",
-                "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.3.1",
-                "phpunit/phpunit": "^8.5"
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.3.2",
+                "phpunit/phpunit": "^9.5"
             },
             "type": "phpcodesniffer-standard",
             "autoload": {
@@ -894,7 +896,7 @@
                 "codesniffer",
                 "mediawiki"
             ],
-            "time": "2021-10-21T18:15:41+00:00"
+            "time": "2022-11-01T20:02:35+00:00"
         },
         {
             "name": "php-parallel-lint/php-console-color",
@@ -1045,16 +1047,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.6.1",
+            "version": "3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "f268ca40d54617c6e06757f83f699775c9b3ff2e"
+                "reference": "1359e176e9307e906dc3d890bcc9603ff6d90619"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/f268ca40d54617c6e06757f83f699775c9b3ff2e",
-                "reference": "f268ca40d54617c6e06757f83f699775c9b3ff2e",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/1359e176e9307e906dc3d890bcc9603ff6d90619",
+                "reference": "1359e176e9307e906dc3d890bcc9603ff6d90619",
                 "shasum": ""
             },
             "require": {
@@ -1092,7 +1094,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2021-10-11T04:00:11+00:00"
+            "time": "2022-06-18T07:21:10+00:00"
         }
     ],
     "aliases": [],
